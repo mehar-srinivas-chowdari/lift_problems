@@ -6,9 +6,9 @@ x=0
 cnt=0
 for i in li:
     x+=i
-    cnt+=1
-    if(x>=W or cnt>=N):
+    if(x>W or cnt>=N):
         break
+    cnt+=1
 print(cnt)
 
 '''
